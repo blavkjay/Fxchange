@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F788A5421233D7300684167 /* PriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F788A5221233D7300684167 /* PriceTableViewCell.swift */; };
+		7F788A5521233D7300684167 /* PriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F788A5321233D7300684167 /* PriceTableViewCell.xib */; };
+		7F788A59212353F800684167 /* currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F788A58212353F800684167 /* currency.swift */; };
 		7F8115802118613B00678F92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81157F2118613B00678F92 /* AppDelegate.swift */; };
-		7F8115822118613B00678F92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8115812118613B00678F92 /* ViewController.swift */; };
 		7F8115852118613B00678F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8115832118613B00678F92 /* Main.storyboard */; };
 		7F8115872118614700678F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8115862118614700678F92 /* Assets.xcassets */; };
 		7F81158A2118614700678F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8115882118614700678F92 /* LaunchScreen.storyboard */; };
+		7F88C1C6211B039B008D6FB0 /* FXchangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88C1C5211B039A008D6FB0 /* FXchangeModel.swift */; };
+		7FBA4E68211897D4003427DB /* PricesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA4E67211897D4003427DB /* PricesTableViewController.swift */; };
+		7FFD38F02118645B0005F15B /* GraphRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFD38EF2118645B0005F15B /* GraphRatesViewController.swift */; };
+		C7D759DE6A23F16D12BA946F /* Pods_FXchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0C21DCD70E8B79CF809E2E /* Pods_FXchange.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28B336E66464C9D9F9A81E99 /* Pods-FXchange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXchange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FXchange/Pods-FXchange.debug.xcconfig"; sourceTree = "<group>"; };
+		7F788A5221233D7300684167 /* PriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTableViewCell.swift; sourceTree = "<group>"; };
+		7F788A5321233D7300684167 /* PriceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceTableViewCell.xib; sourceTree = "<group>"; };
+		7F788A58212353F800684167 /* currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currency.swift; sourceTree = "<group>"; };
 		7F81157C2118613B00678F92 /* FXchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F81157F2118613B00678F92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7F8115812118613B00678F92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7F8115842118613B00678F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F8115862118614700678F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F8115892118614700678F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F81158B2118614700678F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F88C1C5211B039A008D6FB0 /* FXchangeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXchangeModel.swift; sourceTree = "<group>"; };
+		7FBA4E67211897D4003427DB /* PricesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricesTableViewController.swift; sourceTree = "<group>"; };
+		7FFD38EF2118645B0005F15B /* GraphRatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRatesViewController.swift; sourceTree = "<group>"; };
+		8D9B29B2D0AF7F1890ED91A2 /* Pods-FXchange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXchange.release.xcconfig"; path = "Pods/Target Support Files/Pods-FXchange/Pods-FXchange.release.xcconfig"; sourceTree = "<group>"; };
+		EF0C21DCD70E8B79CF809E2E /* Pods_FXchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FXchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D759DE6A23F16D12BA946F /* Pods_FXchange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F838981504BF76EFC19C74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0C21DCD70E8B79CF809E2E /* Pods_FXchange.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F788A5021233D1900684167 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F788A5121233D3200684167 /* Custom Cell */,
+				7F8115832118613B00678F92 /* Main.storyboard */,
+				7F8115882118614700678F92 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F788A5121233D3200684167 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7F788A5221233D7300684167 /* PriceTableViewCell.swift */,
+				7F788A5321233D7300684167 /* PriceTableViewCell.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		7F788A562123536200684167 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7FBA4E67211897D4003427DB /* PricesTableViewController.swift */,
+				7FFD38EF2118645B0005F15B /* GraphRatesViewController.swift */,
+				7F81157F2118613B00678F92 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F788A572123538F00684167 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F788A58212353F800684167 /* currency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		7F8115732118613A00678F92 = {
 			isa = PBXGroup;
 			children = (
 				7F81157E2118613B00678F92 /* FXchange */,
 				7F81157D2118613B00678F92 /* Products */,
+				D65A9F9B6D673DECE15B2E66 /* Pods */,
+				5F838981504BF76EFC19C74B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +116,23 @@
 		7F81157E2118613B00678F92 /* FXchange */ = {
 			isa = PBXGroup;
 			children = (
-				7F81157F2118613B00678F92 /* AppDelegate.swift */,
-				7F8115812118613B00678F92 /* ViewController.swift */,
-				7F8115832118613B00678F92 /* Main.storyboard */,
+				7F788A572123538F00684167 /* Model */,
+				7F788A562123536200684167 /* Controller */,
+				7F788A5021233D1900684167 /* View */,
 				7F8115862118614700678F92 /* Assets.xcassets */,
-				7F8115882118614700678F92 /* LaunchScreen.storyboard */,
 				7F81158B2118614700678F92 /* Info.plist */,
+				7F88C1C5211B039A008D6FB0 /* FXchangeModel.swift */,
 			);
 			path = FXchange;
+			sourceTree = "<group>";
+		};
+		D65A9F9B6D673DECE15B2E66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28B336E66464C9D9F9A81E99 /* Pods-FXchange.debug.xcconfig */,
+				8D9B29B2D0AF7F1890ED91A2 /* Pods-FXchange.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F81158E2118614700678F92 /* Build configuration list for PBXNativeTarget "FXchange" */;
 			buildPhases = (
+				9D5CE02B620778D28B75E26B /* [CP] Check Pods Manifest.lock */,
 				7F8115782118613B00678F92 /* Sources */,
 				7F8115792118613B00678F92 /* Frameworks */,
 				7F81157A2118613B00678F92 /* Resources */,
+				5FA0AE78A1BB21769DAADC39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F81158A2118614700678F92 /* LaunchScreen.storyboard in Resources */,
+				7F788A5521233D7300684167 /* PriceTableViewCell.xib in Resources */,
 				7F8115872118614700678F92 /* Assets.xcassets in Resources */,
 				7F8115852118613B00678F92 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +204,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FA0AE78A1BB21769DAADC39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FXchange/Pods-FXchange-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FXchange/Pods-FXchange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5CE02B620778D28B75E26B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FXchange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F8115782118613B00678F92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8115822118613B00678F92 /* ViewController.swift in Sources */,
+				7FFD38F02118645B0005F15B /* GraphRatesViewController.swift in Sources */,
+				7FBA4E68211897D4003427DB /* PricesTableViewController.swift in Sources */,
+				7F788A59212353F800684167 /* currency.swift in Sources */,
 				7F8115802118613B00678F92 /* AppDelegate.swift in Sources */,
+				7F788A5421233D7300684167 /* PriceTableViewCell.swift in Sources */,
+				7F88C1C6211B039B008D6FB0 /* FXchangeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +397,13 @@
 		};
 		7F81158F2118614700678F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28B336E66464C9D9F9A81E99 /* Pods-FXchange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36X855UTYZ;
 				INFOPLIST_FILE = FXchange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,16 +411,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.olajuwon.FXchange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7F8115902118614700678F92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9B29B2D0AF7F1890ED91A2 /* Pods-FXchange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36X855UTYZ;
 				INFOPLIST_FILE = FXchange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +431,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.olajuwon.FXchange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

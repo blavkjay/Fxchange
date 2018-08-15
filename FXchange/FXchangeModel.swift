@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+
+var currency: String = ""
+var rate: Double = 0.0
