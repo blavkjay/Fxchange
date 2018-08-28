@@ -70,12 +70,12 @@ class PricesTableViewController: UITableViewController {
         let current: Currency
         current = currency[indexPath.row]
         
-        let price = String(describing: current.currencyPrice)
-        
+       let price = String(describing: current.currencyPrice)
+      //  let price = current.currencyPrice as? String
         cell.currency.text = current.currencyname
         
         cell.price.text = price
-       // print(price)
+     
 
         return cell
         

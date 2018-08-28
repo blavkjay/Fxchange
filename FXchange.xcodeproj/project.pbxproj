@@ -14,7 +14,6 @@
 		7F8115852118613B00678F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8115832118613B00678F92 /* Main.storyboard */; };
 		7F8115872118614700678F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8115862118614700678F92 /* Assets.xcassets */; };
 		7F81158A2118614700678F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8115882118614700678F92 /* LaunchScreen.storyboard */; };
-		7F88C1C6211B039B008D6FB0 /* FXchangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88C1C5211B039A008D6FB0 /* FXchangeModel.swift */; };
 		7FBA4E68211897D4003427DB /* PricesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA4E67211897D4003427DB /* PricesTableViewController.swift */; };
 		7FFD38F02118645B0005F15B /* GraphRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFD38EF2118645B0005F15B /* GraphRatesViewController.swift */; };
 		C7D759DE6A23F16D12BA946F /* Pods_FXchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0C21DCD70E8B79CF809E2E /* Pods_FXchange.framework */; };
@@ -31,7 +30,6 @@
 		7F8115862118614700678F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F8115892118614700678F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F81158B2118614700678F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F88C1C5211B039A008D6FB0 /* FXchangeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXchangeModel.swift; sourceTree = "<group>"; };
 		7FBA4E67211897D4003427DB /* PricesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricesTableViewController.swift; sourceTree = "<group>"; };
 		7FFD38EF2118645B0005F15B /* GraphRatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRatesViewController.swift; sourceTree = "<group>"; };
 		8D9B29B2D0AF7F1890ED91A2 /* Pods-FXchange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXchange.release.xcconfig"; path = "Pods/Target Support Files/Pods-FXchange/Pods-FXchange.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 				7F788A5021233D1900684167 /* View */,
 				7F8115862118614700678F92 /* Assets.xcassets */,
 				7F81158B2118614700678F92 /* Info.plist */,
-				7F88C1C5211B039A008D6FB0 /* FXchangeModel.swift */,
 			);
 			path = FXchange;
 			sourceTree = "<group>";
@@ -213,11 +210,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FXchange/Pods-FXchange-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,7 +254,6 @@
 				7F788A59212353F800684167 /* currency.swift in Sources */,
 				7F8115802118613B00678F92 /* AppDelegate.swift in Sources */,
 				7F788A5421233D7300684167 /* PriceTableViewCell.swift in Sources */,
-				7F88C1C6211B039B008D6FB0 /* FXchangeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
