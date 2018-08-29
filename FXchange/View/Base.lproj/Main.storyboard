@@ -17,10 +17,25 @@
                     <view key="view" contentMode="scaleToFill" id="lvK-82-zX5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PvY-ae-J2z" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="10" y="30" width="355" height="578"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6bR-u0-rd8" firstAttribute="bottom" secondItem="PvY-ae-J2z" secondAttribute="bottom" constant="10" id="CvF-Ci-YLg"/>
+                            <constraint firstItem="PvY-ae-J2z" firstAttribute="top" secondItem="6bR-u0-rd8" secondAttribute="top" constant="10" id="K8Z-Ix-tdy"/>
+                            <constraint firstItem="6bR-u0-rd8" firstAttribute="trailing" secondItem="PvY-ae-J2z" secondAttribute="trailing" constant="10" id="L4W-EJ-ACG"/>
+                            <constraint firstItem="PvY-ae-J2z" firstAttribute="leading" secondItem="6bR-u0-rd8" secondAttribute="leading" constant="10" id="eOZ-JQ-CKy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6bR-u0-rd8"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Graph" image="graph" id="Npj-4c-awp"/>
+                    <connections>
+                        <outlet property="LineGraph" destination="PvY-ae-J2z" id="fe5-32-5vL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sfj-MV-mVS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
